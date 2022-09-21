@@ -4,20 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Mukul Joshi new app
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1>Mukul Joshi</h1>
+     <form action="http://localhost:3330/login?" method="post">
+        <input type="text" name="name" id="'1" /><br/>
+        <input type="password" name="password" id="2" /><br/>
+        <input type="submit"/>
+    </form>
     </div>
   );
 }
